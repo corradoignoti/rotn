@@ -1,10 +1,7 @@
 class rotn:
+    
     # encrypt a plain text using rotn
     # number define the rot type (numnber=13 => rot13)
-
-    def __init__(self):
-        pass
-
     def encrypt(self, plain_text, number):
         plain_text = plain_text.lower()
         text = "abcdefghilmnopqrstuvz"
